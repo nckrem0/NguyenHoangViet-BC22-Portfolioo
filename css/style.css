@@ -75,3 +75,201 @@ header {
     top: 50%;
     transform: translateY(-50%);
 }
+
+
+/* porfolio */
+.project__title {
+    text-align: center;
+    margin-top: 100px;
+}
+.project__title h1 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #1a1d2d;
+}
+.project__title p {
+    width: 70%;
+    font-size: 16px;
+    color: #585858;
+    margin: 0 auto;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+
+.nav {
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.nav-pills .nav-link.active {
+    color: #fff;
+    background-color: #35a22c;
+    
+}
+.project__content .nav-item {
+    border: 0.5px solid #1a1d2d;
+    margin: 0px 5px;
+    border-radius: 5px;
+}
+
+.tab-content {
+    margin-top: 50px;
+}
+
+.col-md-4 {
+    padding-bottom: 30px;
+}
+.card {
+    border-radius: 15px;
+}
+.card img {
+    border-radius: 15px 15px 0px 0px;
+}
+.card-title {
+    font-size: 18px;
+}
+
+.card:hover .card-body {
+    border: 1px solid #35a22c;
+    border-radius: 0px 0px 15px 15px;
+    opacity: 1;
+}
+
+
+/* feature */
+.feature {
+    background-image:url(../image/3.jpg);
+    margin-top: 80px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.overlay {
+    background: rgba(7, 10, 12, 0.72);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.head__top {
+    max-width: 750px;
+    position: relative;
+    margin-bottom: 50px;
+    padding-top: 100px;
+}
+.head__top h1 {
+    font-size: 36px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    font-weight: 600;
+}
+.feature__content {
+    padding-bottom: 80px;
+}
+
+.content:hover {
+    background-color: black;
+    transition: all 0.5s;
+    border: 1px solid white;
+}
+
+.content {
+    padding: 40px 40px;
+    background-color: rgb(255,255,255,.1);
+    text-align: center;
+    border: 1px solid rgb(255,255,255,.1);
+    backdrop-filter: blur(3px);
+    /* transition: all 0.5s; */
+    border-radius: 10px;
+
+}
+.content i {
+    font-size: 48px;
+    color: #35a22c;
+}
+.content h4{
+    font-size: 20px;
+    margin-top: 25px;
+    line-height: 30px;
+    font-weight: 800;
+}
+
+.content p {
+    font-size: 16px;
+    line-height: 24px;
+    padding-top: 15px;
+}
+
+/* award */
+#award { 
+    background-image: url(../image/memphis_3.png);
+    position: relative;
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-size: 50% ;
+    /* filter: grayscale(50%); */
+    /* opacity: 0.5; */
+    
+}
+
+.award__content {
+   display: flex; 
+}
+
+.award__right {
+    padding: 45px;
+    background-color: rgba(255,255,255,.25);
+    border-radius: 10px;
+    border: 1px solid rgb(255,255,255,.18);
+    backdrop-filter: blur(3px);
+    box-shadow: 0 0 30px 0 rgb(0 0 0 / 30%);
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+.award__left {
+    padding-top: 100px;
+}
+.award__img img {
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+}
+
+
+/* footer */
+footer {
+    background-color: #222;
+}
+
+.socical{
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.socical a{
+    text-decoration: none;
+}
+.socical i {
+    margin-right: 10px;
+    width: 42px;
+    height: 42px;
+    border-radius: 100%;
+    line-height: 42px;
+    border: 1px solid #454545;
+    color: #aaa;
+}
+
+.copyright {
+    border-top: 1px solid #454545;
+    padding: 30px 0px;
+    color: #aaa;
+
+}
+
+.socical a:hover i {
+    border: 1px solid #35a22c;
+    color: #35a22c;
+}
+
